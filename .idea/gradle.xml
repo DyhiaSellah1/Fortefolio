@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:\Users\dihia\gradle\gradle-8.10" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/main/Fortfolio" />
+        <option name="gradleHome" value="C:\Users\dihia\gradle\gradle-8.10" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/main/Fortfolio" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/main/Fortfolio/docs" />
+        <option name="gradleHome" value="C:\Users\dihia\gradle\gradle-8.10" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/main/Fortfolio/docs" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src/main/Fortfolio/docs/travaux" />
+        <option name="gradleHome" value="C:\Users\dihia\gradle\gradle-8.10" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/src/main/Fortfolio/docs/travaux" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
