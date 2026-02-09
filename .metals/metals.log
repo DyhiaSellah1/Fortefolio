@@ -1,0 +1,9 @@
+2026.02.09 12:06:12 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\dihia\IdeaProjects\Fortefolio' for client Visual Studio Code 1.106.3.
+2026.02.09 12:06:12 INFO  Memory monitor started
+2026.02.09 12:06:12 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.02.09 12:06:13 INFO  restarted 0 presentation compilers
+2026.02.09 12:06:20 INFO  no build target found for C:\Users\dihia\IdeaProjects\Fortefolio\src\main\java\org\example\Main.java. Using fallback presentation compiler.
+2026.02.09 12:06:21 INFO  no build target found for C:\Users\dihia\IdeaProjects\Fortefolio\src\main\java\org\example\Main.java. Using fallback presentation compiler.
+2026.02.09 12:06:31 INFO  no build target found for C:\Users\dihia\IdeaProjects\Fortefolio\src\main\java\org\example\Main.java. Using fallback presentation compiler.
+févr. 09, 2026 12:06:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
