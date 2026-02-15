@@ -5,90 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio MIAGE | Accueil</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <header>
-    <div class="container">
-        <h1>Portfolio Numérique</h1>
-        <p class="subtitle">Parcours MIAGE - Travaux & Compétences</p>
-        <nav>
-            <ul>
-                <li><a href="#travaux">Rubrique 1 : Travaux</a></li>
-                <li><a href="#cours">Rubrique 2 : Cours</a></li>
-                <li><a href="#si">Rubrique 3 : SI</a></li>
-                <li><a href="#projet-final">Rubriques 4-6 : Projets</a></li>
-                <li><a href="#a-propos">À Propos (Rubrique 7)</a></li>
-            </ul>
-        </nav>
+    <nav>
+        <ul>
+            <li><a href="#travaux" class="nav-active">Accueil</a></li>
+            <li><a href="#travaux">Travaux</a></li>
+            <li><a href="#cours">Supports</a></li>
+            <li><a href="#projet-final">Certifications</a></li>
+            <li><a href="#projet-final">Projet Final</a></li>
+            <li><a href="#a-propos">À Propos</a></li>
+        </ul>
+    </nav>
+    <div class="hero-content">
+        <h1>Mon Portfolio Étudiant</h1>
+        <p class="subtitle">Découvrez mes travaux académiques, certifications et projets réalisés tout au long de mon parcours MIAGE.</p>
+        <div class="cta-group">
+            <a href="#travaux" class="btn">Voir mes travaux</a>
+            <a href="#a-propos" class="btn secondary">À propos de moi</a>
+        </div>
     </div>
 </header>
 
-<main class="container">
 
+<main class="container">
     <section id="travaux">
         <h2>📁 Rubrique 1 : Travaux de classe</h2>
         <div class="card">
-            <h3>TP Odoo - Gestion d'entreprise "edu-techshop"</h3>
-            <p>Configuration complète d'un ERP : Achats (P00005), Ventes, et gestion des stocks de matériel informatique.</p>
-            <div class="links">
-                <a href="./docs/TP_Odoo.pdf" target="_blank" class="btn">📄 Voir le compte-rendu</a>
-            </div>
+            <p>Configuration complète d'un ERP : Achats (P00005), Ventes, et gestion des stocks.</p>
+            <a href="./docs/Rendu_TP_Odoo.pdf" target="_blank" class="btn-link">Rendu TP Odoo - Gestion d'entreprise</a>
         </div>
     </section>
 
     <section id="cours">
         <h2>📝 Rubrique 2 : Supports de Cours</h2>
-        <p>Notes de cours structurées et ressources personnelles complétées durant le semestre.</p>
-        <ul>
-            <li><a href="docs/notes_erp.pdf" target="_blank">Introduction aux ERP et Odoo</a></li>
-            <li><a href="docs/notes_si.pdf" target="_blank">Architecture des Systèmes d'Information</a></li>
-        </ul>
-    </section>
-
-    <section id="si">
-        <h2>📊 Rubrique 3 : Documents d'un Système d'Information</h2>
-        <p>Identification et rédaction de documents techniques liés aux SI.</p>
-        <a href="docs/doc_si.pdf" target="_blank" class="btn">📄 Consulter les documents</a>
+        <div class="card">
+            <p>Notes de cours structurées et ressources personnelles.</p>
+            <ul class="doc-list">
+                <li><a href="./docs/doc1 etudiant.pdf" target="_blank">Introduction aux ERP et Odoo</a></li>
+                <li><a href="./docs/TP Odoo.pdf" target="_blank">TP Odoo</a></li>
+            </ul>
+        </div>
     </section>
 
     <section id="projet-final">
-        <h2>🚀 Projets & Certifications</h2>
+        <h2> Certifications</h2>
+       
+           <!-- <a href="travaux/certification_google.pdf" target="_blank" class="btn-link">🏆 Voir le certificat</a>-->
+     
+    </section>
 
-        <div class="card">
-            <h3>Rubrique 4 : Certifications</h3>
-            <p>Valorisation des compétences par des attestations.</p>
-            <a href="docs/certification_google.pdf" target="_blank" class="btn secondary">🏆 Voir le certificat</a>
+            <section id="a-propos">
+        <h2>Projet final</h2>
+        <!-- <p>Étudiant en MIAGE</p> -->
+        <div class="profile-links">
+           <!-- <a href="travaux/CV_ATS.pdf" target="_blank" class="btn">📄 Mon CV (ATS)</a>-->
         </div>
+    </section>
 
-        <div class="card">
-            <h3>Rubrique 5 : Projet Final (CRM)</h3>
-            <p>Livrable principal : Conception et réalisation d'un projet numérique complet.</p>
-            <a href="docs/livrable_crm.pdf" target="_blank" class="btn">📥 Dossier Projet CRM</a>
+        <section id="a-propos">
+        <h2>Diaporama soutenance</h2>
+ <!-- <p>Étudiant en MIAGE</p> -->        <div class="profile-links">
+           <!-- <a href="travaux/CV_ATS.pdf" target="_blank" class="btn">📄 Mon CV (ATS)</a>-->
         </div>
+    </section>
 
-        <div class="card">
-            <h3>Rubrique 6 : Soutenance</h3>
-            <p>Support visuel pour la présentation orale du projet.</p>
-            <a href="docs/diaporama_soutenance.pptx" class="btn secondary">📊 Diaporama</a>
+        <section id="a-propos">
+        <h2>Autres ressources</h2>
+        <p>Étudiant en MIAGE, passionné par les systèmes d'information.</p>
+        <div class="profile-links">
+           <!-- <a href="travaux/CV_ATS.pdf" target="_blank" class="btn">📄 Mon CV (ATS)</a>-->
         </div>
     </section>
 
     <section id="a-propos">
-        <h2>👤 À Propos de Moi (Rubrique 7)</h2>
-        <p>Étudiant en MIAGE, passionné par les systèmes d'information et la gestion de projet.</p>
+        <h2>👤 À Propos (Rubrique 7)</h2>
+        <p>Étudiant en MIAGE, passionné par les systèmes d'information.</p>
         <div class="profile-links">
-            <a href="docs/CV_Nom_ATS.pdf" target="_blank" class="btn-special">📄 Mon CV (Format ATS)</a>
-            <a href="https://linkedin.com/in/votre-nom" target="_blank" class="btn-special">🔗 Profil LinkedIn</a>
-        </div>
-        <p><em>Ressources complémentaires et veille technologique.</em></p>
+            <a href="docs/CV_Dyhia_Sellah.pdf" target="_blank" class="btn">📄 Mon CV (ATS)</a>
+            <a href="https://www.linkedin.com/in/dyhia-sellah-101637302" target="_blank" class="btn secondary">🔗 LinkedIn</a>        </div>
     </section>
 
 </main>
 
 <footer>
-    <p>&copy; 2026 - Portfolio MIAGE - Développé à la main sans CMS</p>
+    <p>&copy; 2026 - Portfolio MIAGE - Codé à la main (HTML5/CSS3)</p>
 </footer>
 
 </body>
