@@ -132,3 +132,43 @@ footer {
     font-size: 0.85rem;
     border-top: 1px solid var(--glass-border);
 }
+.session-title {
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.mini-section {
+    background: rgba(255,255,255,0.05);
+    padding: 15px 20px;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+.mini-section h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #f8f8f8;
+}
+
+.mini-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.mini-section ul li {
+    margin-bottom: 8px;
+}
+
+.mini-section ul li a {
+    text-decoration: none;
+    color: #6a5acd;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.mini-section ul li a:hover {
+    color: #ffffff;
+    padding-left: 5px;
+}
